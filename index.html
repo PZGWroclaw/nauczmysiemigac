@@ -2,383 +2,146 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Kurs PJM – Podstawy</title>
+    <title>Polski Związek Głuchych Oddział Dolnośląski – Kurs PJM</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            color: #333;
+            margin: 0;
+            background: #eef2f7;
+            color: #222;
         }
+
         header {
-            background: linear-gradient(135deg, #005bbb 0%, #003f7d 100%);
+            background: linear-gradient(135deg, #005bbb, #003f7d);
             color: white;
             padding: 40px 20px;
             text-align: center;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
+
         header h1 {
-            font-size: 2.5em;
+            font-size: 36px;
             margin-bottom: 10px;
+            letter-spacing: 1px;
         }
+
         header p {
-            font-size: 1.1em;
-            opacity: 0.95;
+            font-size: 18px;
+            opacity: 0.9;
         }
+
         nav {
             background: #003f7d;
-            padding: 15px;
+            padding: 12px;
             text-align: center;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 10px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
         }
+
         nav a {
             color: white;
+            margin: 0 18px;
             text-decoration: none;
             font-weight: bold;
-            padding: 10px 20px;
-            border-radius: 5px;
-            transition: background 0.3s ease;
+            font-size: 16px;
         }
-        nav a:hover {
-            background: #005bbb;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+
         section {
             background: white;
-            margin: 30px auto;
-            padding: 30px;
+            margin: 25px auto;
+            padding: 25px;
+            width: 90%;
+            max-width: 950px;
             border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
         }
+
         h2 {
             color: #005bbb;
-            margin-bottom: 20px;
-            font-size: 1.8em;
-            border-bottom: 3px solid #005bbb;
-            padding-bottom: 10px;
+            font-size: 28px;
+            margin-bottom: 10px;
         }
-        .video-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 25px;
-            margin-top: 25px;
+
+        ul {
+            line-height: 1.8;
+            font-size: 18px;
         }
-        .video-item {
-            background: #f8f9fa;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .video-item:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        }
-        .video-container {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%;
-            height: 0;
-            overflow: hidden;
-            background: #000;
-        }
-        .video-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-        .video-info {
-            padding: 15px;
-        }
-        .video-info h3 {
-            color: #005bbb;
-            margin-bottom: 8px;
-            font-size: 1.1em;
-        }
-        .video-info p {
-            color: #666;
-            font-size: 0.95em;
-            line-height: 1.5;
-        }
-        .modul-content {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 15px;
-        }
-        .modul-content ul {
-            list-style-position: inside;
-            color: #555;
-        }
-        .modul-content li {
-            margin: 10px 0;
-            padding-left: 10px;
-        }
-        .empty-video {
-            background: #e9ecef;
-            padding: 40px;
-            text-align: center;
-            border-radius: 8px;
-            color: #999;
-        }
+
         footer {
             text-align: center;
-            padding: 30px 20px;
-            color: #fff;
-            background: rgba(0,0,0,0.2);
-        }
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 1.8em;
-            }
-            nav {
-                flex-direction: column;
-                gap: 5px;
-            }
-            nav a {
-                display: block;
-            }
-            section {
-                padding: 20px;
-                margin: 20px 10px;
-            }
+            padding: 25px;
+            background: #003f7d;
+            color: white;
+            margin-top: 40px;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>🤟 Kurs Polskiego Języka Migowego (PJM)</h1>
-    <p>Nauczmy się migać razem – zacznij swoją przygodę z językiem migowym!</p>
+    <h1>Polski Związek Głuchych Oddział Dolnośląski</h1>
+    <p>Kurs Polskiego Języka Migowego – materiały edukacyjne</p>
 </header>
 
 <nav>
-    <a href="#start">🏠 Start</a>
-    <a href="#modul1">📚 Moduł 1</a>
-    <a href="#modul2">💬 Moduł 2</a>
-    <a href="#modul3">🛍️ Moduł 3</a>
-    <a href="#materialy">📥 Materiały</a>
-    <a href="#kontakt">📧 Kontakt</a>
+    <a href="#start">Start</a>
+    <a href="#modul1">Moduł 1</a>
+    <a href="#modul2">Moduł 2</a>
+    <a href="#modul3">Moduł 3</a>
+    <a href="#materialy">Materiały</a>
+    <a href="#kontakt">Kontakt</a>
 </nav>
 
-<div class="container">
-
 <section id="start">
-    <h2>🎓 Witaj w kursie PJM!</h2>
-    <p>Ten kurs zawiera krótkie lekcje, filmy edukacyjne, słowniki oraz ćwiczenia dla osób zaczynających naukę języka migowego.</p>
-    <p style="margin-top: 15px; color: #666;">Przejdź do modułów poniżej i ucz się we własnym tempie. Każdy moduł zawiera filmy demonstracyjne, które pokażą Ci jak prawidłowo wykonywać znaki.</p>
+    <h2>Witamy w kursie PJM</h2>
+    <p>Oddział Dolnośląski Polskiego Związku Głuchych przygotował dla Ciebie prosty, dostępny kurs Polskiego Języka Migowego. 
+       Znajdziesz tu lekcje, słowniki, przykłady znaków oraz materiały do pobrania.</p>
+    <p>Ucz się we własnym tempie — przejdź do modułów poniżej.</p>
 </section>
 
 <section id="modul1">
-    <h2>📚 Moduł 1 – Podstawy PJM</h2>
-    <p>W tym module poznasz alfabet PJM oraz podstawowe zwroty, które będą Ci przydatne w codziennych rozmowach.</p>
-    
-    <div class="video-grid">
-        <div class="video-item">
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <div class="video-info">
-                <h3>Alfabet PJM – Część 1</h3>
-                <p>Nauka liter A-M alfabetu polskiego języka migowego</p>
-            </div>
-        </div>
-
-        <div class="video-item">
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <div class="video-info">
-                <h3>Alfabet PJM – Część 2</h3>
-                <p>Nauka liter N-Z alfabetu polskiego języka migowego</p>
-            </div>
-        </div>
-
-        <div class="video-item">
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <div class="video-info">
-                <h3>Podstawowe Zwroty</h3>
-                <p>Cześć, Dziękuję, Proszę, Tak, Nie – najważniejsze zwroty</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="modul-content">
-        <strong>Zawartość modułu:</strong>
-        <ul>
-            <li>✓ Alfabet PJM – litera po literze</li>
-            <li>✓ Podstawowe zwroty: cześć, dziękuję, proszę, tak/nie</li>
-            <li>✓ Słowniczek PDF do pobrania</li>
-            <li>✓ Ćwiczenia praktyczne</li>
-        </ul>
-    </div>
+    <h2>Moduł 1 – Podstawy PJM</h2>
+    <p>W tym module poznasz najważniejsze elementy komunikacji w PJM.</p>
+    <ul>
+        <li>Alfabet PJM – podstawowe znaki</li>
+        <li>Zwroty: cześć, dziękuję, proszę, tak/nie</li>
+        <li>Prosty słowniczek do pobrania (PDF)</li>
+    </ul>
 </section>
 
 <section id="modul2">
-    <h2>💬 Moduł 2 – Komunikacja Codzienna</h2>
-    <p>Znaki i zwroty przydatne w codziennych rozmowach. Nauczysz się przedstawiać, pytać i prowadzić proste dialogi.</p>
-    
-    <div class="video-grid">
-        <div class="video-item">
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <div class="video-info">
-                <h3>Przedstawianie Się</h3>
-                <p>Jak prawidłowo się przedstawić w języku migowym</p>
-            </div>
-        </div>
-
-        <div class="video-item">
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <div class="video-info">
-                <h3>Pytania Podstawowe</h3>
-                <p>Kto? Co? Gdzie? Kiedy? – pytania w PJM</p>
-            </div>
-        </div>
-
-        <div class="video-item">
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <div class="video-info">
-                <h3>Krótkie Dialogi</h3>
-                <p>Przykładowe rozmowy – słuchaj i powtarzaj</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="modul-content">
-        <strong>Zawartość modułu:</strong>
-        <ul>
-            <li>✓ Przedstawianie się</li>
-            <li>✓ Pytania: kto, co, gdzie, kiedy, jak</li>
-            <li>✓ Krótkie dialogi praktyczne</li>
-            <li>✓ Liczby w PJM</li>
-        </ul>
-    </div>
+    <h2>Moduł 2 – Komunikacja codzienna</h2>
+    <p>Znaki i zwroty przydatne w codziennych rozmowach.</p>
+    <ul>
+        <li>Przedstawianie się</li>
+        <li>Pytania: kto, co, gdzie, kiedy</li>
+        <li>Krótkie dialogi do ćwiczeń</li>
+    </ul>
 </section>
 
 <section id="modul3">
-    <h2>🛍️ Moduł 3 – Sytuacje Praktyczne</h2>
-    <p>Znaki używane w sklepie, przychodni, urzędzie i pracy. Praktyczne słownictwo dla rzeczywistych sytuacji.</p>
-    
-    <div class="video-grid">
-        <div class="video-item">
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <div class="video-info">
-                <h3>W Sklepie</h3>
-                <p>Zwroty i znaki przydatne przy robienie zakupów</p>
-            </div>
-        </div>
-
-        <div class="video-item">
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <div class="video-info">
-                <h3>W Przychodni</h3>
-                <p>Komunikacja w gabinecie lekarza – słowa i zwroty</p>
-            </div>
-        </div>
-
-        <div class="video-item">
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <div class="video-info">
-                <h3>W Pracy i Urzędzie</h3>
-                <p>Profesjonalne znaki i zwroty do komunikacji biznesowej</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="modul-content">
-        <strong>Zawartość modułu:</strong>
-        <ul>
-            <li>✓ Znaki dla sklepu i zakupów</li>
-            <li>✓ Słownictwo medyczne i zdrowotne</li>
-            <li>✓ Zwroty biznesowe i urzędowe</li>
-            <li>✓ Praktyczne dialogów w różnych sytuacjach</li>
-        </ul>
-    </div>
+    <h2>Moduł 3 – Sytuacje praktyczne</h2>
+    <p>Znaki używane w życiu codziennym.</p>
+    <ul>
+        <li>W sklepie – kupić, zapłacić, pomoc</li>
+        <li>W przychodni – lekarz, ból, badanie</li>
+        <li>W urzędzie – dokument, podpis, spotkanie</li>
+    </ul>
 </section>
 
 <section id="materialy">
-    <h2>📥 Materiały do Pobrania</h2>
-    <p>Tutaj znajdziesz dodatkowe zasoby edukacyjne do każdego modułu:</p>
-    
-    <div style="margin-top: 20px;">
-        <h3 style="color: #005bbb; margin-top: 15px;">📄 PDF i Słowniki:</h3>
-        <ul style="list-style: none; padding-left: 0;">
-            <li style="padding: 10px 0; border-bottom: 1px solid #eee;">
-                📥 <a href="#" style="color: #005bbb; text-decoration: none; font-weight: bold;">Słownik Modułu 1 – Podstawy.pdf</a>
-            </li>
-            <li style="padding: 10px 0; border-bottom: 1px solid #eee;">
-                📥 <a href="#" style="color: #005bbb; text-decoration: none; font-weight: bold;">Słownik Modułu 2 – Komunikacja.pdf</a>
-            </li>
-            <li style="padding: 10px 0; border-bottom: 1px solid #eee;">
-                📥 <a href="#" style="color: #005bbb; text-decoration: none; font-weight: bold;">Słownik Modułu 3 – Sytuacje Praktyczne.pdf</a>
-            </li>
-            <li style="padding: 10px 0; border-bottom: 1px solid #eee;">
-                📥 <a href="#" style="color: #005bbb; text-decoration: none; font-weight: bold;">Alfabetyka PJM – Plansza do wydruku.pdf</a>
-            </li>
-        </ul>
-
-        <h3 style="color: #005bbb; margin-top: 25px;">🎬 Filmy:</h3>
-        <ul style="list-style: none; padding-left: 0;">
-            <li style="padding: 10px 0; border-bottom: 1px solid #eee;">
-                🎥 <a href="#" style="color: #005bbb; text-decoration: none; font-weight: bold;">Kompletna seria lekcji wideo (wszystkie moduły)</a>
-            </li>
-            <li style="padding: 10px 0;">
-                🎥 <a href="#" style="color: #005bbb; text-decoration: none; font-weight: bold;">Ćwiczenia wymowy i mimiki w PJM</a>
-            </li>
-        </ul>
-    </div>
+    <h2>Materiały do pobrania</h2>
+    <p>Tu możesz dodać linki do PDF, filmów lub zdjęć.</p>
 </section>
 
 <section id="kontakt">
-    <h2>📧 Kontakt i Wsparcie</h2>
-    <p>Masz pytania? Chcesz wysłać opinie? Skontaktuj się z nami!</p>
-    
-    <div style="margin-top: 25px; background: #f8f9fa; padding: 20px; border-radius: 8px;">
-        <p><strong>Email:</strong> <a href="mailto:biuro.pzg.wroc@gmail.com" style="color: #005bbb; text-decoration: none;">biuro.pzg.wroc@gmail.com</a></p>
-        <p style="margin-top: 10px;"><strong>Organizacja:</strong> Poznańskie Zrzeszenie Głuchych (PZG)</p>
-        <p style="margin-top: 10px;"><strong>Telefon:</strong> <a href="tel:+48..." style="color: #005bbb; text-decoration: none;">+48 (wpisz numer)</a></p>
-    </div>
-
-    <div style="margin-top: 20px; padding: 15px; background: #e7f3ff; border-left: 4px solid #005bbb; border-radius: 4px;">
-        <p><strong>💡 Rada:</strong> Jeśli chcesz dowiedzieć się więcej o języku migowym, odwiedź nasze centrum lub zarejestruj się na stacjonarny kurs!</p>
-    </div>
+    <h2>Kontakt</h2>
+    <p>Masz pytania dotyczące kursu PJM?</p>
+    <p>Napisz do nas: <strong>kursy@pzg.wroc.pl</strong></p>
 </section>
 
-</div>
-
 <footer>
-    <p><strong>© 2026 Kurs PJM – Nauczmy się migać razem!</strong></p>
-    <p style="margin-top: 10px; opacity: 0.9;">Poznańskie Zrzeszenie Głuchych (PZG) – Włączenie i Dostępność dla Wszystkich</p>
+    © 2026 Polski Związek Głuchych Oddział Dolnośląski
 </footer>
 
 </body>
