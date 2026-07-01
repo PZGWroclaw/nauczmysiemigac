@@ -1,116 +1,40 @@
-# nauczmysiemigac<!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <title>Kurs PJM – Podstawy</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background: #005bbb;
-            color: white;
-            padding: 30px;
-            text-align: center;
-        }
-        nav {
-            background: #003f7d;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        section {
-            background: white;
-            margin: 20px auto;
-            padding: 20px;
-            width: 90%;
-            max-width: 900px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        h2 {
-            color: #005bbb;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            color: #777;
-        }
-    </style>
-</head>
-<body>
+# Nauczmy się migać – Kurs Polskiego Języka Migowego (PJM)
 
-<header>
-    <h1>Kurs Polskiego Języka Migowego (PJM)</h1>
-    <p>Prosta strona edukacyjna z lekcjami PJM</p>
-</header>
+Prosta strona edukacyjna z lekcjami **Polskiego Języka Migowego** dla osób zaczynających naukę.
 
-<nav>
-    <a href="#start">Start</a>
-    <a href="#modul1">Moduł 1</a>
-    <a href="#modul2">Moduł 2</a>
-    <a href="#modul3">Moduł 3</a>
-    <a href="#materialy">Materiały</a>
-    <a href="#kontakt">Kontakt</a>
-</nav>
+## 📚 O kursie
 
-<section id="start">
-    <h2>Strona główna</h2>
-    <p>Witaj w kursie PJM! Ten kurs zawiera krótkie lekcje, filmy, słowniki oraz ćwiczenia dla osób zaczynających naukę języka migowego.</p>
-    <p>Przejdź do modułów poniżej i ucz się we własnym tempie.</p>
-</section>
+Ten projekt zawiera:
+- Krótkie lekcje PJM
+- Filmy edukacyjne
+- Słowniki i materiały
+- Ćwiczenia praktyczne
 
-<section id="modul1">
-    <h2>Moduł 1 – Podstawy PJM</h2>
-    <p>W tym module poznasz alfabet PJM oraz podstawowe zwroty.</p>
-    <ul>
-        <li>Alfabet PJM</li>
-        <li>Podstawowe zwroty: cześć, dziękuję, proszę, tak/nie</li>
-        <li>Słowniczek PDF (dodaj link, jeśli chcesz)</li>
-    </ul>
-</section>
+## 🎓 Moduły nauki
 
-<section id="modul2">
-    <h2>Moduł 2 – Komunikacja codzienna</h2>
-    <p>Znaki i zwroty przydatne w codziennych rozmowach.</p>
-    <ul>
-        <li>Przedstawianie się</li>
-        <li>Pytania: kto, co, gdzie, kiedy</li>
-        <li>Krótkie dialogi</li>
-    </ul>
-</section>
+### Moduł 1 – Podstawy PJM
+- Alfabet PJM
+- Podstawowe zwroty: cześć, dziękuję, proszę, tak/nie
+- Słowniczek PDF
 
-<section id="modul3">
-    <h2>Moduł 3 – Sytuacje praktyczne</h2>
-    <p>Znaki używane w sklepie, urzędzie, pracy i przychodni.</p>
-    <ul>
-        <li>W sklepie</li>
-        <li>W przychodni</li>
-        <li>W pracy / urzędzie</li>
-    </ul>
-</section>
+### Moduł 2 – Komunikacja codzienna
+- Przedstawianie się
+- Pytania: kto, co, gdzie, kiedy
+- Krótkie dialogi
 
-<section id="materialy">
-    <h2>Materiały do pobrania</h2>
-    <p>Tu możesz dodać linki do PDF, filmów lub zdjęć.</p>
-</section>
+### Moduł 3 – Sytuacje praktyczne
+- W sklepie
+- W przychodni
+- W pracy / urzędzie
 
-<section id="kontakt">
-    <h2>Kontakt</h2>
-    <p>Jeśli chcesz się skontaktować, wpisz tutaj adres e-mail lub formularz.</p>
-</section>
+## 📥 Materiały do pobrania
 
-<footer>
-    © 2026 Kurs PJM – Twoja strona
-</footer>
+Tutaj będą linki do PDF, filmów i zdjęć edukacyjnych.
 
-</body>
-</html>
+## 📧 Kontakt
+
+Jeśli chcesz się skontaktować, napisz do nas!
+
+---
+
+**© 2026 Kurs PJM** – Nauczmy się migać razem!
